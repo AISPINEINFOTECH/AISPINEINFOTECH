@@ -46,7 +46,7 @@ nav {
     background: rgb(18, 18, 18);
     max-width: 2000px;
     position: relative;
-    z-index: 999;
+    z-index: 1010;
     height: 75px;
     color: white;
 }
@@ -403,7 +403,6 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 68vh;
     overflow: hidden;
 }
 
@@ -444,7 +443,7 @@ nav {
     background-color: rgb(237 237 237 / 80%);
     padding: 50px 0px;
     border-bottom: 1px solid #0000ff2e;
-    background-color: #dde2f68c;
+    background-color: #cbcef3;
 
 }
 
@@ -466,8 +465,7 @@ nav {
     border-bottom: 2px solid #47b2e4;
     flex-direction: column;
     padding: 25px 11px;
-    /* gap: 25px;    */
-    background-color: #eceffa;
+    /* background-color: #d6d9f7; */
     overflow: hidden;
 }
 
@@ -760,7 +758,10 @@ h4 {
     height: 22px;
     z-index: 9;
 }
-
+.social .button img{
+    width: 20px;
+    filter: invert();
+}
 .social .button:nth-child(2) {
     background: linear-gradient(120deg, #02ff2c, #008a12);
 }
@@ -834,11 +835,6 @@ h4 {
     .nav-item button span {
         font-size: 14px;
     }
-
-}
-
-
-@media only screen and (max-width: 720px) {
     #side-bar-nav {
         display: block;
     }
@@ -846,6 +842,14 @@ h4 {
     .nav-items {
         display: none;
     }
+
+}
+
+
+@media only screen and (max-width: 720px) {
+  .logo img{
+    height: 50px;
+  }
 }
 
 

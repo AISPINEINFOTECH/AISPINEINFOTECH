@@ -49,14 +49,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //   swiper code start here ------------->
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    autoplay:{
-        duration: 0.5,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });   

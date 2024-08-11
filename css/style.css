@@ -1132,6 +1132,10 @@ h4 {
     z-index: 9;
 }
 
+.social .button img{
+    width: 20px;
+    filter: invert();
+}
 .social .button:nth-child(2) {
     background: linear-gradient(120deg, #02ff2c, #008a12);
 }
@@ -1140,9 +1144,7 @@ h4 {
     background: rgb(69, 187, 255);
 }
 
-.social .button:nth-child(4) {
-    background: #1877f2;
-}
+
 
 .social .button:nth-child(5) {
     background: rgb(255, 33, 33);
@@ -1200,10 +1202,6 @@ h4 {
     .nav-item button span {
         font-size: 14px;
     }
-
-}
-
-@media only screen and (max-width: 720px) {
     #side-bar-nav {
         display: block;
     }
@@ -1211,6 +1209,11 @@ h4 {
     .nav-items {
         display: none;
     }
+
+}
+
+@media only screen and (max-width: 720px) {
+   
     .logo img {
         height: 50px;
     }
@@ -1288,7 +1291,7 @@ h4 {
 
 
     .swiper-slide img {
-        height: 35vh;
+        height: 42vh;
     }
 
     .banner-content {

@@ -45,7 +45,7 @@ nav {
     background: rgb(18, 18, 18);
     max-width: 2000px;
     position: relative;
-    z-index: 999;
+    z-index: 1010;
     height: 75px;
     color: white;
 }

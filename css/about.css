@@ -45,7 +45,7 @@ nav {
     background: rgb(18, 18, 18);
     max-width: 2000px;
     position: relative;
-    z-index: 999;
+    z-index: 1010;
     height: 75px;
     color: white;
 }
@@ -579,7 +579,6 @@ nav {
     padding: 20px 25px;
     gap: 20px;
     border-radius: 3px;
-    box-shadow: 5px 9px 20px 0px #3e3e3e91;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -800,6 +799,8 @@ nav {
     display: flex;
     align-items: center;
     min-width: 92px;
+    width: 115px;
+    height: 115px;
 
 
 }
@@ -964,7 +965,10 @@ h4 {
     height: 22px;
     z-index: 9;
 }
-
+.social .button img{
+    width: 20px;
+    filter: invert();
+}
 .social .button:nth-child(2) {
     background: linear-gradient(120deg, #02ff2c, #008a12);
 }
@@ -1039,21 +1043,6 @@ h4 {
     .nav-item button span {
         font-size: 14px;
     }
-
-}
-
-/* @media only screen and (max-width: 600px) {
-    .nav-item button {
-        padding: 0px 10px;
-    }
-
-    .nav-item button span {
-        font-size: 11px;
-    }
-
-} */
-
-@media only screen and (max-width: 720px) {
     #side-bar-nav {
         display: block;
     }
@@ -1061,8 +1050,14 @@ h4 {
     .nav-items {
         display: none;
     }
+
+}
+@media only screen and (max-width: 520px) {
+.logo img{
+    height: 50px;
 }
 
+}
 
 
 /* banner section media query ----------->  */
@@ -1076,6 +1071,9 @@ h4 {
 @media only screen and (max-width: 720px) {
     .banner-content h1 {
         font-size: 32px;
+    }
+    .banner{
+        height: 42vh;
     }
 }
 
@@ -1149,6 +1147,26 @@ h4 {
         width: 100%;
     }
 }
+
+
+
+
+
+/* testimonial section section media querires --------------> */
+
+@media only screen and (max-width: 650px) {
+    .testimonial {
+        width: 100vw;
+        max-width: 2000px;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        padding: 10px;
+    }
+    .card{
+        width: 95%;
+    }
+}
+
 
 
 /* tema section media querires --------------> */

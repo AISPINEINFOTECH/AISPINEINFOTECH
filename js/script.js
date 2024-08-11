@@ -96,60 +96,6 @@ gsap.from(".service-box", {
   scrollTrigger: ".service-box",
 });
 
-gsap.from(".tool-box", {
-  duration: 0.5,
-  opacity: 0,
-  y: 100,
-  // stagger:0.4,
-  scrollTrigger: ".tool-box",
-});
-
-gsap.from(".role-right img", {
-  duration: 0.5,
-  opacity: 0,
-  scale:0.7,
-  scrollTrigger: ".role-right img",
-});
-
-gsap.from(".aboutus-heading", {
-  duration: 0.9,
-  opacity: 0,
-  y: 100,
-  scrollTrigger: ".aboutus-heading",
-});
-
-gsap.from(".we-do", {
-  duration: 0.9,
-  opacity: 0,
-  y: 200,
-  scrollTrigger: ".we-do",
-});
-
-gsap.from(".vision ", {
-  duration: 0.9,
-  opacity: 0,
-  y: 80,
-
-  scrollTrigger: ".vision ",
-});
-
-
-gsap.from(".contact-form", {
-  duration: 0.9,
-  opacity: 0,
-  y: 70,
-  scrollTrigger: ".contact-form",
-});
-
-
-gsap.from(".contact-info", {
-  duration: 0.9,
-  opacity: 0,
-  y: 50,
-  scrollTrigger: ".contact-info",
-});
-
-
 gsap.from(".logos", {
   duration: 0.5,
   opacity: 0.5,

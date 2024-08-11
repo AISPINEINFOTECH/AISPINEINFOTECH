@@ -48,10 +48,3 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
 
-  gsap.from(".tool-box", {
-    duration: 0.5,
-    opacity: 0,
-    y: 100,
-    // stagger:0.4,
-    scrollTrigger: ".tool-box",
-  });

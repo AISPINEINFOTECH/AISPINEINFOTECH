@@ -45,7 +45,7 @@ nav {
     background: rgb(18, 18, 18);
     max-width: 2000px;
     position: relative;
-    z-index: 999;
+    z-index: 1010;
     height: 75px;
     color: white;
 }
@@ -897,7 +897,10 @@ footer {
     height: 22px;
     z-index: 9;
 }
-
+.social .button img{
+    width: 20px;
+    filter: invert();
+}
 .social .button:nth-child(2) {
     background: linear-gradient(120deg, #02ff2c, #008a12);
 }
@@ -976,11 +979,6 @@ footer {
     .nav-item button span {
         font-size: 14px;
     }
-
-}
-
-
-@media only screen and (max-width: 720px) {
     #side-bar-nav {
         display: block;
     }
@@ -988,6 +986,14 @@ footer {
     .nav-items {
         display: none;
     }
+
+}
+
+
+@media only screen and (max-width: 720px) {
+.logo img{
+    height: 50px;
+}
 }
 
 
@@ -1094,6 +1100,10 @@ footer {
 @media only screen and (max-width: 680px) {
     .service-boxes {
         flex-direction: column;
+        width: 100%;
+    }
+    .our-services{
+        padding: 5px;
     }
 
     .boxes-content {
